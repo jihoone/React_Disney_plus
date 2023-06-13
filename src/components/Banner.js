@@ -28,7 +28,7 @@ const Banner = () => {
         setMovie(movieDetail);
     }
 
-    const truecate = (str, n) => {
+    const truncate = (str, n) => {
         return str?.length > n ? str.substring(0, n) + '...' : str;
     }
 
@@ -77,7 +77,7 @@ const Banner = () => {
                         }
                     </div>
                     <p className='banner__description'>
-                        {truecate(movie.overview, 100)}
+                        {truncate(movie.overview, 100)}
                     </p>
                 </div>
                 <div className='banner--fadeBottom' />

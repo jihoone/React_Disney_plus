@@ -41,7 +41,7 @@
 
     .banner_button {
         font-size: 0.8rem !important;
-        border-left: 40px;
+        border-radius: 4px !important;
     }
 }
 
